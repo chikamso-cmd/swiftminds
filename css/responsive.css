@@ -1,0 +1,22 @@
+@media (max-width: 375px) {
+    .card-content:hover{
+        height: 330px;
+        /* background: red; */
+    }
+}
+@media (max-width: 320px) {
+    .card-content{
+        width: 100%;
+    }
+    .card-content:hover{
+        height: 330px;
+        /* background: red; */
+    }
+    .card-content h3{
+        font-size: 12px;
+        text-transform: capitalize;
+        color: var(--deep);
+        text-align: center;
+        font-weight: bolder;
+      }
+}
